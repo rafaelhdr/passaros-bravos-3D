@@ -68,4 +68,13 @@ public class PlayerController : MonoBehaviour {
 			status = 3;
 		}
 	}
+
+	// Movido para PigController
+//	void OnCollisionEnter (Collision collision)
+//	{
+//		if (collision.gameObject.CompareTag ("Pig"))
+//		{
+//			collision.gameObject.SetActive (false);
+//		}
+//	}
 }
